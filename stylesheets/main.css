@@ -98,6 +98,10 @@ hr {
 	float:right;
 }
 
+.signin button{
+	font-size: 14px;
+}
+
 .fright{
 	width:30%;
 	float:right;
@@ -174,13 +178,7 @@ h2{
 }
 
 h3{
-	font-size: 24px;
-}
-
-h1,h2,h3,h4 { 
-	font-weight: normal; 
-	color: #333; 
-	margin: 20px 0
+	font-size: 22px;
 }
 
 /* sections */
