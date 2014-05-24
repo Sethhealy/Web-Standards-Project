@@ -1,0 +1,27 @@
+.contact{
+    width:40%;
+    margin:0 auto;}
+
+form{
+    width:50%;}
+
+.sectional h3{
+    margin: 0 auto;}
+
+//login page as well
+
+.login{
+    width:50%;
+    margin: 0 auto;
+    margin-top: 150px;}
+
+@media screen and (max-width: 740px){
+.contact{
+    width:100%;
+    margin: 0 auto;
+}
+form{
+    width:100%;
+}
+
+}
