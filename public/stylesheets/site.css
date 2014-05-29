@@ -1,15 +1,40 @@
+@media only screen and (min-width: 40.063em) {
+  .top-bar-section li:not(.has-form) a:not(.button) {
+    width: 100%;
+    padding: 0 15px;
+    line-height: 45px;
+    background: #008cba; } }
 header {
   width: 96%;
   clear: both;
   padding: 20px 0 40px;
   height: 500px;
-  background: url("../../images/long.jpg") no-repeat;
+  background: url("../../images/cradle.jpg") no-repeat;
   background-size: cover; }
 
-header h1 {
-  width: 350px;
-  margin: 0 auto;
-  color: white; }
+h1 {
+  width: 30%;
+  margin: 0;
+  display: inline;
+  font-family: "franklin gothic medium"; }
+
+.logo {
+  margin-bottom: 20px; }
+
+.button {
+  background-color: #2e3983;
+  color: #ffde40;
+  font-family: "franklin gothic book" "helvetica" "times new roman";
+  width: 150px;
+  font-weight: 2em;
+  border-radius: 0.5em; }
+
+.center {
+  width: 100%;
+  margin: 0 auto; }
+
+li .button {
+  width: 110px; }
 
 p {
   color: #2e3983; }
@@ -18,51 +43,77 @@ a {
   color: #edcd03; }
 
 .row {
-  font-family: franklin gothic book; }
+  font-family: "franklin gothic book"; }
 
-h1 {
-  font-family: franklin gothic medium; }
+.large-12 {
+  margin-top: 20px; }
+
+.large-12 .button {
+  margin-top: 10px; }
+
+.signup {
+  padding-top: 20px;
+  margin-left: 20px;
+  float: right; }
 
 body {
-  background-color: #fffffe; }
+  background-color: #fffffa;
+  padding: 0 8px 0 8px; }
 
 @media screen and (max-width: 740px) {
   header {
-    background: url("../../images/long.jpg") no-repeat;
+    background: url("../../images/cradle.jpg") no-repeat;
     width: 100%;
     height: 200px; }
 
   header h1 {
     margin-left: 60px; } }
-.contact {
+@media screen and (max-width: 420px) {
+  header {
+    background: url("../../images/cradle.jpg") no-repeat;
+    width: 100%;
+    height: 200px; }
+
+  header h1 {
+    margin-left: 60px; } }
+.forms {
   width: 40%;
-  margin: 0 auto; }
+  float: right; }
 
-form {
-  width: 50%; }
+article {
+  width: 40%;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: left; }
 
-.sectional h3 {
+article h3 {
   margin: 0 auto; }
 
 .login {
   width: 50%;
   margin: 0 auto;
-  margin-top: 150px; }
+  margin-top: 100px; }
 
 @media screen and (max-width: 740px) {
-  .contact {
+  article {
     width: 100%;
     margin: 0 auto; }
 
-  form {
+  .forms {
     width: 100%; } }
+.paragraph {
+  width: 50%;
+  float: left; }
+
 @media screen and (max-width: 770px) {
   .box {
     margin-top: 20px; }
 
-  #container {
-    width: 100%; } }
+  .panel {
+    text-align: center; } }
 @media screen and (max-width: 490px) {
   #container {
-    width: 96%;
-    margin-left: 0; } }
+    margin-left: 0; }
+
+  .panel {
+    text-align: center; } }
