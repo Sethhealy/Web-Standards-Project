@@ -89,6 +89,12 @@ article {
 article h3 {
   margin: 0 auto; }
 
+.loginparagraph{
+   width: 50%;
+   margin: 0 auto;
+}
+
+
 .login {
   width: 50%;
   margin: 0 auto;
