@@ -24,9 +24,8 @@ h1 {
 .button {
   background-color: #2e3983;
   color: #ffde40;
-  font-family: "franklin gothic book" "helvetica" "times new roman";
+  font-family: "franklin gothic book";
   width: 150px;
-  font-weight: 2em;
   border-radius: 0.5em; }
 
 .center {
