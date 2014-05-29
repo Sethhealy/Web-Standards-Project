@@ -1,17 +1,25 @@
+.paragraph{
+    width:50%;
+    float:left;
+}
+
 
 @media screen and (max-width: 770px){
 .box{
     margin-top: 20px;
 }
-#container{
-    width:100%;
+
+.panel{
+    text-align:center;
 }
 }
 
 @media screen and (max-width: 490px){
 #container{
-    width:96%;
     margin-left: 0;
+}
+.panel{
+    text-align:center;
 }
 }
 

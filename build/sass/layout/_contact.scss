@@ -1,27 +1,33 @@
-.contact{
+// .contact{
+//     width:40%;
+//     margin:0 auto;}
+
+.forms{
     width:40%;
-    margin:0 auto;}
+    float:right;}
 
-form{
-    width:50%;}
+article{
+    width:40%;
+    margin-top: 20px;
+    margin-left:20px;
+    float:left;
+}
 
-.sectional h3{
+article h3{
     margin: 0 auto;}
-
-//login page as well
 
 .login{
     width:50%;
     margin: 0 auto;
-    margin-top: 150px;}
+    margin-top: 100px;
+}
 
 @media screen and (max-width: 740px){
-.contact{
+article{
     width:100%;
     margin: 0 auto;
 }
-form{
+.forms{
     width:100%;
 }
-
 }
