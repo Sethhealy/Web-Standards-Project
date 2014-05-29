@@ -1,0 +1,8 @@
+@mixin button ($bc, $c){
+    background-color:$bc;
+    color:$c;
+    font-family: "franklin gothic book" "helvetica" "times new roman";
+    width:150px;
+    font-weight: 2em;
+    border-radius: 0.5em;
+}
